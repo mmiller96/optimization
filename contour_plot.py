@@ -7,6 +7,12 @@ params = {'text.usetex' : True,
           }
 plt.rcParams.update(params) 
 
+# shows the concept of the lagriange multipliers by a simple example
+# f(x, y) is the objective function
+# g(x, y) is the constraint function
+# the gradient vectors of f and g have to be parallel and the found solution should match with the constraint (g(x, y)=0)
+# --> optimal solution
+
 if __name__ == "__main__":
     def f(x, y):
         return 2*x + y 
